@@ -6,3 +6,14 @@
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+
+@{
+    string nome = "Leo";
+    Aluno aluno = new()
+    {
+        DataNascimento = DateTime.Now.AddDays(-10000)
+    };
+    aluno.SetNome(nome);
+
+    <h2>@aluno.GetNome()</h2>
+}

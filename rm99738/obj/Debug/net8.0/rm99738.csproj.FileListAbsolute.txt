@@ -28,3 +28,4 @@ E:\Visual Studio Projects\rm99738\rm99738\obj\Debug\net8.0\refint\rm99738.dll
 E:\Visual Studio Projects\rm99738\rm99738\obj\Debug\net8.0\rm99738.pdb
 E:\Visual Studio Projects\rm99738\rm99738\obj\Debug\net8.0\rm99738.genruntimeconfig.cache
 E:\Visual Studio Projects\rm99738\rm99738\obj\Debug\net8.0\ref\rm99738.dll
+E:\Visual Studio Projects\rm99738\rm99738\obj\Debug\net8.0\rm99738.sourcelink.json
