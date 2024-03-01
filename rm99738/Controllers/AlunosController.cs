@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using rm99738.Models;
 
 namespace rm99738.Controllers
 {
@@ -6,6 +7,8 @@ namespace rm99738.Controllers
     {
         public IActionResult Index()
         {
+            Aluno aluno = new Aluno("Leo","Leo@email.com");
+
             return View();
         }
     }

@@ -1,14 +1,15 @@
 ﻿@using System.Diagnostics
 @{
     ViewData["Title"] = "Alunos Page";
+
+    Aluno aluno = new Aluno("Leonardo", "leo@email.com", 44113);
 }
 
 <div class="text-center">
     <h1 class="display-4">Alunos Page</h1>
 </div>
 <div>
-    @for (int i = 0; i < 10; i++)
-    {
-        <p>Aluno @i</p>
-    }
+    
+    <p>@aluno.GetNome() e seu email é @aluno.Email  </p>
+    <p> @aluno.RetornaCodigo() </p>
 </div>
